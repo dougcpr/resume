@@ -1,0 +1,31 @@
+div.nav-container {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  margin: 0 auto;
+  width: 100%;
+  .profile-picture {
+    background-color: white;
+    border: solid 3px lightblue;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    animation: traverse-up 1s;
+    /*
+    TODO: Fill in Background Image with your Profile Picture
+    background-image: url();
+    */
+  }
+}
+
+@keyframes traverse-up {
+  from {
+    opacity: 0.6;
+    transform: translate(0, 75px)
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0px)
+  }
+}

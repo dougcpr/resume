@@ -1,7 +1,38 @@
 <div class="card-container">
-  <div *ngFor="let temp of tempArray" class="card">
-    <div class="card-title"></div>
-    <div class="card-details"></div>
-    <div class="card-footnote"></div>
+  <div *ngFor="let numeral of cardData"
+       class="card">
+
+    <!--Card Front Content-->
+    <div class="card-front">
+      <div class="title-overlay">
+        <div class="card-image">
+          {{numeral.frontContent}}
+        </div>
+      </div>
+    </div>
+
+    <!--Card Back Content-->
+    <div class="card-back">
+      <div class="card-content">
+        {{numeral.backContent}}
+      </div>
+      <div class="card-technologies">
+        <div class="card-title">
+          {{numeral.title}}
+        </div>
+        <div class="card-client">
+          {{numeral.clientName}}
+        </div>
+      </div>
+      <div class="card-info">
+        <div class="card-date">
+          {{numeral.dateCompleted}}
+        </div>
+        <div class="card-icons">
+          <i class="material-icons">
+            {{numeral.technologies}}</i>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

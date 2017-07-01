@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectDataService } from "../../services/projectData";
 
 @Component({
   selector: 'app-portfolio-cards',
@@ -7,11 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioCardsComponent implements OnInit {
 
-  tempArray: Array<number> = [0,1,2,3];
+  cardData: any;
 
-  constructor() { }
+  constructor(
+    public projectData: ProjectDataService
+  ) { }
 
   ngOnInit() {
+    this.cardData = this.projectData.data;
   }
 
 }

@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-top: 150px;
   margin-right: 10%;
   margin-left: 10%;
   perspective: 2000px;
@@ -11,6 +10,12 @@
 .card:hover {
   transition: 0.7s linear;
   transform: rotateY(180deg);
+}
+
+.projectHeader {
+  display: flex;
+  font-weight: 100;
+  justify-content: center;
 }
 
 .card {

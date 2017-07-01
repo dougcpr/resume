@@ -1,0 +1,29 @@
+div.card-container{
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 90%;
+  .card{
+    border: 1px solid black;
+    display: flex;
+    height: 400px;
+    width: 600px;
+    flex-direction: column;
+    margin: 3px auto;
+    .card-title{
+      background-color: lightgreen;
+      height: 20px;
+    }
+    .card-details{
+      background-color: lightblue;
+      height: 360px;
+    }
+    .card-footnote {
+      background-color: lightcoral;
+      height: 20px;
+    }
+  }
+}

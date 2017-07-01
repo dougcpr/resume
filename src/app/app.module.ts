@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { PortfolioCardsComponent } from './components/portfolio-cards/portfolio-cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    NavBarComponent,
+    PortfolioCardsComponent
   ],
   imports: [
     BrowserModule,

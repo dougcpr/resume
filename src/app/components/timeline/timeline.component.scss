@@ -2,14 +2,14 @@
   div.timeline-container {
     width: 90%;
     height: 200px;
-    margin: 250px auto 100px auto;
+    margin: 200px auto 0px auto;
     display: flex;
     text-align: center;
     justify-content: center;
-    .timeline-small-black {
+    .timeline-red {
       width: 100px;
       height: 15px;
-      background: black;
+      background: red;
       flex-direction: row-reverse;
       .arrow-up {
         width: 0;
@@ -17,62 +17,93 @@
         margin: -10px 40px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid black;
+        border-bottom: 10px solid red;
       }
-      .black-info-circle {
+      .red-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         margin: -150px 0;
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: black;
+        background: red;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
         line-height: 100px;
-        color: #fff;
+        color: black;
       }
-      .black-info-circle:hover {
+      .red-info-circle:hover {
         position: relative;
         transition: ease-in-out 0.75s;
         transform: scale(1.8) translate(0px, -20px);
       }
     }
-    .timeline-black-medium {
+    .timeline-orange {
+      width: 100px;
+      height: 15px;
+      background-image: linear-gradient(90deg, red, orange);
+      .arrow-down {
+        width: 0;
+        height: 0;
+        margin: 15px 40px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid orange;
+      }
+      .orange-info-circle {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin: 40px 0px;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        background: orange;
+        transition: ease-in-out 0.75s;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+        color: black;
+      }
+      .orange-info-circle:hover {
+        position: relative;
+        transition: ease-in-out 0.75s;
+        transform: scale(1.8) translate(0px, 20px);
+      }
+    }
+    .timeline-yellow {
       width: 150px;
       height: 15px;
-      background: black;
+      background-image: linear-gradient(90deg, orange, yellow);
       .arrow-up {
         width: 0;
         height: 0;
         margin: -10px 65px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid black;
+        border-bottom: 10px solid yellow;
       }
-      .black-info-circle {
+      .yellow-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         margin: -150px 25px;
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: black;
+        background: yellow;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
         line-height: 100px;
-        color: #fff;
+        color: black;
       }
-      .black-info-circle:hover {
+      .yellow-info-circle:hover {
         position: relative;
         transition: ease-in-out 0.75s;
         transform: scale(1.8) translate(0px, -20px);
       }
     }
-    .timeline-salad-green-large {
+    .timeline-green {
       width: 200px;
       height: 15px;
-      background: #4fbb87;
+      background-image: linear-gradient(90deg, yellow, #4fbb87);
       .arrow-down {
         width: 0;
         height: 0;
@@ -81,7 +112,7 @@
         border-right: 10px solid transparent;
         border-top: 10px solid #4fbb87;
       }
-      .salad-green-info-circle {
+      .green-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         margin: 40px 50px;
         border-radius: 50%;
@@ -94,41 +125,104 @@
         line-height: 100px;
         color: black;
       }
-      .salad-green-info-circle:hover {
+      .green-info-circle:hover {
         position: relative;
         transition: ease-in-out 0.75s;
         transform: scale(1.8) translate(0px, 20px);
       }
     }
-    .timeline-salad-green-small {
+    .timeline-blue {
       width: 100px;
       height: 15px;
-      background: #4fbb87;
-      .arrow-down {
+      background-image: linear-gradient(90deg, #4fbb87, blue);
+      flex-direction: row-reverse;
+      .arrow-up {
         width: 0;
         height: 0;
-        margin: 15px 40px;
+        margin: -10px 40px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-top: 10px solid #4fbb87;
+        border-bottom: 10px solid blue;
       }
-      .salad-green-info-circle {
+      .blue-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        margin: 40px 0px;
+        margin: -150px 0;
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: #4fbb87;
+        background: blue;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
         line-height: 100px;
         color: black;
       }
-      .salad-green-info-circle:hover {
+      .blue-info-circle:hover {
+        position: relative;
+        transition: ease-in-out 0.75s;
+        transform: scale(1.8) translate(0px, -20px);
+      }
+    }
+    .timeline-indigo {
+      width: 200px;
+      height: 15px;
+      background-image: linear-gradient(90deg, blue, indigo);
+      .arrow-down {
+        width: 0;
+        height: 0;
+        margin: 15px 90px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid indigo;
+      }
+      .indigo-info-circle {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin: 40px 50px;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        background: indigo;
+        transition: ease-in-out 0.75s;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+        color: black;
+      }
+      .indigo-info-circle:hover {
         position: relative;
         transition: ease-in-out 0.75s;
         transform: scale(1.8) translate(0px, 20px);
+      }
+    }
+    .timeline-violet {
+      width: 150px;
+      height: 15px;
+      background-image: linear-gradient(90deg, indigo, violet);
+      .arrow-up {
+        width: 0;
+        height: 0;
+        margin: -10px 65px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid violet;
+      }
+      .violet-info-circle {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin: -150px 25px;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        background: violet;
+        transition: ease-in-out 0.75s;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+        color: black;
+      }
+      .violet-info-circle:hover {
+        position: relative;
+        transition: ease-in-out 0.75s;
+        transform: scale(1.8) translate(0px, -20px);
       }
     }
   }
@@ -152,9 +246,11 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   color: black;
+  letter-spacing: 3px;
   display: flex;
-  font-size: 60px;
+  font-size: 36px;
   font-weight: 100;
+  text-transform: uppercase;
   padding: 10px;
   margin-bottom: 20px;
   justify-content: center;

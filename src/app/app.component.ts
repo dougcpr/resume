@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+
+  linksArray: any[] = [
+    {
+      linkName: "about me",
+      icon: "note_add"
+    },
+    {
+      linkName: "project spotlight",
+      icon: "note_add"
+    },
+    {
+      linkName: "history",
+      icon: "note_add"
+    },
+  ]
+
 }

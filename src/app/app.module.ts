@@ -8,6 +8,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { PortfolioCardsComponent } from './components/portfolio-cards/portfolio-cards.component';
 import { TimelineComponent } from "./components/timeline/timeline.component";
 import { ProjectDataService } from "./services/projectData";
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ProjectDataService } from "./services/projectData";
     NavBarComponent,
     PortfolioCardsComponent,
     TimelineComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,

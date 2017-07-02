@@ -1,3 +1,13 @@
-<div class="nav-container">
-  <div class="profile-picture"></div>
+<div class="navBar">
+  <div class="links-container">
+    <div class="link">
+      <p>home</p>
+    </div>
+
+    <div class="link-right-container">
+      <div class="link" *ngFor="let link of links">
+        <p>{{link.linkName}}</p>
+      </div>
+    </div>
+  </div>
 </div>

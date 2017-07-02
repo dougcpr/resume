@@ -174,4 +174,19 @@
   div.timeline-container {
     display: none;
   }
+  div.timeline-header{
+    display: none;
+  }
+}
+
+.timeline-header {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: black;
+  display: flex;
+  font-size: 60px;
+  font-weight: 100;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
 }

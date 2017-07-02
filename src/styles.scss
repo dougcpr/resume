@@ -2,4 +2,7 @@
 body {
   margin: 0;
   font-family: Roboto;
+  @media(min-width: 1024px){
+    background: whitesmoke;
+  }
 }

@@ -6,10 +6,10 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    .timeline-red {
+    .timeline-small-black {
       width: 100px;
       height: 15px;
-      background: lightcoral;
+      background: black;
       flex-direction: row-reverse;
       .arrow-up {
         width: 0;
@@ -17,149 +17,118 @@
         margin: -10px 40px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid lightcoral;
+        border-bottom: 10px solid black;
       }
-      .red-info-circle {
+      .black-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         margin: -150px 0;
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: lightcoral;
+        background: black;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
         line-height: 100px;
         color: #fff;
       }
-      .red-info-circle:hover {
+      .black-info-circle:hover {
         position: relative;
         transition: ease-in-out 0.75s;
         transform: scale(1.8) translate(0px, -20px);
       }
     }
-    .timeline-green {
+    .timeline-black-medium {
       width: 150px;
       height: 15px;
-      background: lightgreen;
+      background: black;
       .arrow-up {
         width: 0;
         height: 0;
         margin: -10px 65px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid lightgreen;
+        border-bottom: 10px solid black;
       }
-      .green-info-circle {
+      .black-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         margin: -150px 25px;
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: lightgreen;
+        background: black;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
         line-height: 100px;
         color: #fff;
       }
-      .green-info-circle:hover {
+      .black-info-circle:hover {
         position: relative;
         transition: ease-in-out 0.75s;
         transform: scale(1.8) translate(0px, -20px);
       }
     }
-    .timeline-blue {
+    .timeline-salad-green-large {
       width: 200px;
       height: 15px;
-      background: lightblue;
+      background: #4fbb87;
       .arrow-down {
         width: 0;
         height: 0;
         margin: 15px 90px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-top: 10px solid lightblue;
+        border-top: 10px solid #4fbb87;
       }
-      .blue-info-circle {
+      .salad-green-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         margin: 40px 50px;
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: lightblue;
+        background: #4fbb87;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
         line-height: 100px;
-        color: #fff;
+        color: black;
       }
-      .blue-info-circle:hover {
+      .salad-green-info-circle:hover {
         position: relative;
         transition: ease-in-out 0.75s;
         transform: scale(1.8) translate(0px, 20px);
       }
     }
-    .timeline-purple {
+    .timeline-salad-green-small {
       width: 100px;
       height: 15px;
-      background: mediumpurple;
+      background: #4fbb87;
       .arrow-down {
         width: 0;
         height: 0;
         margin: 15px 40px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-top: 10px solid mediumpurple;
+        border-top: 10px solid #4fbb87;
       }
-      .purple-info-circle {
+      .salad-green-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         margin: 40px 0px;
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: mediumpurple;
+        background: #4fbb87;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
         line-height: 100px;
-        color: #fff;
+        color: black;
       }
-      .purple-info-circle:hover {
+      .salad-green-info-circle:hover {
         position: relative;
         transition: ease-in-out 0.75s;
         transform: scale(1.8) translate(0px, 20px);
-      }
-    }
-    .timeline-orange {
-      width: 150px;
-      height: 15px;
-      background: lightsalmon;
-      .arrow-up {
-        width: 0;
-        height: 0;
-        margin: -10px 65px;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 10px solid lightsalmon;
-      }
-      .orange-info-circle {
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        margin: -150px 25px;
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        background: lightsalmon;
-        transition: ease-in-out 0.75s;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 100px;
-        color: #fff;
-      }
-      .orange-info-circle:hover {
-        position: relative;
-        transition: ease-in-out 0.75s;
-        transform: scale(1.8) translate(0px, -20px);
       }
     }
   }

@@ -1,8 +1,10 @@
 @media (min-width: 1025px) {
   div.timeline-container {
+    user-select: none;
+    cursor: default;
     width: 90%;
     height: 200px;
-    margin: 200px auto 0px auto;
+    margin: 150px auto 0px auto;
     padding-bottom: 30px;
     display: flex;
     text-align: center;

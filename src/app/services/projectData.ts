@@ -33,4 +33,17 @@ export class ProjectDataService {
       technologies: "android public watch tv",
     }
   ]
+
+  public aboutMe : any = [
+    {
+      title: "First Card",
+      backContent: "This is the first description about me.",
+    }, {
+      title: "Second Card",
+      backContent: "This is the second description about me",
+    }, {
+      title: "Third Card",
+      backContent: "This is the third description about me",
+    }
+  ]
 }

@@ -3,11 +3,15 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  img{
+    width: 100%;
+  }
   .arrow-downward{
     position: absolute;
     bottom: 0;
     opacity: 0;
     animation: blink 2s 2s 2;
+    z-index: 2;
   }
 }
 

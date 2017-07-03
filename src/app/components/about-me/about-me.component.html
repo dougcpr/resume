@@ -4,4 +4,15 @@
     About Me
   </div>
 
+    <div class="card-container">
+      <div *ngFor="let numeral of cardData"
+           class="card">
+        <!--Card Back Content-->
+        <div class="card-back">
+          <div class="card-content">
+            {{numeral.backContent}}
+          </div>
+        </div>
+      </div>
+    </div>
 </div>

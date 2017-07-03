@@ -9,6 +9,8 @@ import { PortfolioCardsComponent } from './components/portfolio-cards/portfolio-
 import { TimelineComponent } from "./components/timeline/timeline.component";
 import { ProjectDataService } from "./services/projectData";
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { FootnoteComponent } from './components/footnote/footnote.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     PortfolioCardsComponent,
     TimelineComponent,
     LandingPageComponent,
+    FootnoteComponent,
+    AboutMeComponent,
   ],
   imports: [
     BrowserModule,

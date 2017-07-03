@@ -13,12 +13,27 @@ export class AppComponent {
       icon: "note_add"
     },
     {
-      linkName: "project spotlight",
+      linkName: "spotlight",
       icon: "note_add"
     },
     {
       linkName: "history",
       icon: "note_add"
+    },
+  ];
+
+  footnoteArray: any[] = [
+    {
+      linkName: "twitter",
+      icon: "note_add"
+    },
+    {
+      linkName: "facebook",
+      icon: "face"
+    },
+    {
+      linkName: "mail",
+      icon: "mail"
     },
   ]
 

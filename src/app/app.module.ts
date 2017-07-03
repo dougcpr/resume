@@ -11,6 +11,7 @@ import { ProjectDataService } from "./services/projectData";
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { FootnoteComponent } from './components/footnote/footnote.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     LandingPageComponent,
     FootnoteComponent,
     AboutMeComponent,
+    EducationComponent,
   ],
   imports: [
     BrowserModule,

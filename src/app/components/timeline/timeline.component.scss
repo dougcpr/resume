@@ -9,8 +9,8 @@
     justify-content: center;
     .timeline-red {
       width: 100px;
-      height: 15px;
-      background: red;
+      height: 10px;
+      background: black;
       flex-direction: row-reverse;
       .arrow-up {
         width: 0;
@@ -18,7 +18,7 @@
         margin: -10px 40px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid red;
+        border-bottom: 10px solid black;
       }
       .red-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -26,7 +26,7 @@
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: red;
+        background: lightgrey;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
@@ -41,15 +41,15 @@
     }
     .timeline-orange {
       width: 100px;
-      height: 15px;
-      background-image: linear-gradient(90deg, red, orange);
+      height: 10px;
+      background: black;
       .arrow-down {
         width: 0;
         height: 0;
-        margin: 15px 40px;
+        margin: 10px 40px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-top: 10px solid orange;
+        border-top: 10px solid black;
       }
       .orange-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -57,7 +57,7 @@
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: orange;
+        background: lightgrey;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
@@ -72,15 +72,15 @@
     }
     .timeline-yellow {
       width: 150px;
-      height: 15px;
-      background-image: linear-gradient(90deg, orange, yellow);
+      height: 10px;
+      background: black;
       .arrow-up {
         width: 0;
         height: 0;
         margin: -10px 65px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid yellow;
+        border-bottom: 10px solid black;
       }
       .yellow-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -88,7 +88,7 @@
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: yellow;
+        background: lightgrey;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
@@ -103,15 +103,15 @@
     }
     .timeline-green {
       width: 200px;
-      height: 15px;
-      background-image: linear-gradient(90deg, yellow, #4fbb87);
+      height: 10px;
+      background: black;
       .arrow-down {
         width: 0;
         height: 0;
-        margin: 15px 90px;
+        margin: 10px 90px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-top: 10px solid #4fbb87;
+        border-top: 10px solid black;
       }
       .green-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -119,7 +119,7 @@
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: #4fbb87;
+        background: lightgrey;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
@@ -134,8 +134,8 @@
     }
     .timeline-blue {
       width: 100px;
-      height: 15px;
-      background-image: linear-gradient(90deg, #4fbb87, blue);
+      height: 10px;
+      background: black;
       flex-direction: row-reverse;
       .arrow-up {
         width: 0;
@@ -143,7 +143,7 @@
         margin: -10px 40px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid blue;
+        border-bottom: 10px solid black;
       }
       .blue-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -151,7 +151,7 @@
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: blue;
+        background: lightgrey;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
@@ -166,15 +166,15 @@
     }
     .timeline-indigo {
       width: 200px;
-      height: 15px;
-      background-image: linear-gradient(90deg, blue, indigo);
+      height: 10px;
+      background: black;
       .arrow-down {
         width: 0;
         height: 0;
-        margin: 15px 90px;
+        margin: 10px 90px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-top: 10px solid indigo;
+        border-top: 10px solid black;
       }
       .indigo-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -182,7 +182,7 @@
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: indigo;
+        background: lightgrey;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;
@@ -197,15 +197,15 @@
     }
     .timeline-violet {
       width: 150px;
-      height: 15px;
-      background-image: linear-gradient(90deg, indigo, violet);
+      height: 10px;
+      background: black;
       .arrow-up {
         width: 0;
         height: 0;
         margin: -10px 65px;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid violet;
+        border-bottom: 10px solid black;
       }
       .violet-info-circle {
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -213,7 +213,7 @@
         border-radius: 50%;
         width: 100px;
         height: 100px;
-        background: violet;
+        background: lightgrey;
         transition: ease-in-out 0.75s;
         text-align: center;
         vertical-align: middle;

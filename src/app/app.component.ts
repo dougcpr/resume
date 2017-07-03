@@ -10,15 +10,15 @@ export class AppComponent {
   linksArray: any[] = [
     {
       linkName: "about me",
-      icon: "note_add"
     },
     {
-      linkName: "spotlight",
-      icon: "note_add"
+      linkName: "education",
     },
     {
-      linkName: "history",
-      icon: "note_add"
+      linkName: "project window",
+    },
+    {
+      linkName: "timeline",
     },
   ];
 

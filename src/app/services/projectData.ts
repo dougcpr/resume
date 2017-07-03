@@ -32,18 +32,18 @@ export class ProjectDataService {
       dateCompleted: "yyyy.mm.dd",
       technologies: "android public watch tv",
     }
-  ]
+  ];
 
   public aboutMe : any = [
     {
       title: "First Card",
-      backContent: "This is the first description about me.",
+      backContent: "I take initiative and lead by example. If I am asking something of you, I will demonstrate that I can first do it. I have learned to delegate tasks while filing a patent and being a scrum master and dev at the same time.",
     }, {
       title: "Second Card",
-      backContent: "This is the second description about me",
+      backContent: "I strive to learn. Everything here, while simple is written by me. Anything I can do to make my app look better and preform faster, I will look for so I don't have to rely on bulky css frameworks.",
     }, {
       title: "Third Card",
-      backContent: "This is the third description about me",
+      backContent: "I started learning piano in January 2016 and love it so far. Here is a clip at my teacher's reception after 3 months.",
     }
   ]
 }

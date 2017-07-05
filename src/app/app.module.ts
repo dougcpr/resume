@@ -12,6 +12,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { FootnoteComponent } from './components/footnote/footnote.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { EducationComponent } from './components/education/education.component';
+import { LoadingScreenComponent } from './components/loading-screen/loading-screen.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { EducationComponent } from './components/education/education.component';
     FootnoteComponent,
     AboutMeComponent,
     EducationComponent,
+    LoadingScreenComponent,
   ],
   imports: [
     BrowserModule,

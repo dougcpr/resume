@@ -1,0 +1,32 @@
+.loading-bar-container{
+  height: 50px;
+  width: 100%;
+  .proficiency-title{
+
+  }
+  .loading-bar{
+    height: 8px;
+    width: 100%;
+    background: lightcoral;
+    .beginner{
+      height: 100%;
+      width: 25%;
+      background: lightgreen;
+    }
+    .intermediate{
+      height: 100%;
+      width: 50%;
+      background: lightgreen;
+    }
+    .expert{
+      height: 100%;
+      width: 75%;
+      background: lightgreen;
+    }
+    .master{
+      height: 100%;
+      width: 100%;
+      background: lightgreen;
+    }
+  }
+}

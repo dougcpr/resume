@@ -46,4 +46,23 @@ export class ProjectDataService {
       backContent: "I started learning piano in January 2016 and love it! Here is a clip at my teacher's reception after 3 months.",
     }
   ]
+
+  public proficiencyData: any = [
+    {
+      name: "Skill 1",
+      proficiency: "beginner"
+    },
+    {
+      name: "Skill 2",
+      proficiency: "intermediate"
+    },
+    {
+      name: "Skill 3",
+      proficiency: "expert"
+    },
+    {
+      name: "Skill 4",
+      proficiency: "master"
+    },
+  ]
 }

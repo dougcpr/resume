@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectDataService } from "../../services/projectData";
+import { ProjectDataService } from "../../../services/projectData";
 
 @Component({
   selector: 'app-about-me',

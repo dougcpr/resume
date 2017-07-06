@@ -9,18 +9,13 @@
     @media (min-width: 1024px) {
       .school-degree {
         height: 100%;
-        width: 33.33%;
+        width: 50%;
         background: lightblue;
       }
       .hard-skills {
         height: 100%;
-        width: 33.33%;
-        background: lightgreen;
-      }
-      .soft-skills {
-        height: 100%;
-        width: 33.33%;
-        background: lightcoral;
+        width: 50%;
+        background: white;
       }
     }
     @media (max-width: 1024px) {
@@ -32,12 +27,7 @@
       .hard-skills {
         height: 100%;
         width: 100%;
-        background: lightgreen;
-      }
-      .soft-skills {
-        height: 100%;
-        width: 100%;
-        background: lightcoral;
+        background: white;
       }
     }
   }

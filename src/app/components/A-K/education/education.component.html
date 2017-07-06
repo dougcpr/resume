@@ -13,6 +13,9 @@
       <div class="header">
         Hard Skills
       </div>
+      <div *ngFor="let skill of skillData">
+        <app-proficiency-bar [title]="skill.name" [proficiency]="skill.proficiency"></app-proficiency-bar>
+      </div>
     </div>
     <div class="soft-skills">
       <div class="header">

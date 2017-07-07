@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './components/L-Z/nav-bar/nav-bar.component';
 import { PortfolioCardsComponent } from './components/L-Z/portfolio-cards/portfolio-cards.component';
 import { TimelineComponent } from "./components/L-Z/timeline/timeline.component";
 import { ProjectDataService } from "./services/projectData";
@@ -18,7 +17,6 @@ import { ProficiencyBarComponent } from './components/L-Z/proficiency-bar/profic
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
     PortfolioCardsComponent,
     TimelineComponent,
     LandingPageComponent,

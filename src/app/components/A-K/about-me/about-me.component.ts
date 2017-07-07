@@ -7,14 +7,14 @@ import { ProjectDataService } from "../../../services/projectData";
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
-  cardData: any;
+  aboutMe: any;
 
   constructor(
     public projectData: ProjectDataService
   ) { }
 
   ngOnInit() {
-    this.cardData = this.projectData.aboutMe;
+    this.aboutMe = this.projectData.aboutMe;
   }
 
 }

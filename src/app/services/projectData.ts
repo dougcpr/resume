@@ -37,32 +37,36 @@ export class ProjectDataService {
   public aboutMe : any = [
     {
       title: "First Card",
-      backContent: "I take initiative and lead by example. If I am asking something of you, I will demonstrate that I can first do it. I have learned to delegate tasks while filing a patent and fulfilling a scrum master and dev role in tandem.",
+      content: "I take initiative and lead by example. If I am asking something of you, I will demonstrate that I can first do it. I have learned to delegate tasks while filing a patent and fulfilling a scrum master and dev role in tandem.",
     }, {
       title: "Second Card",
-      backContent: "I strive to learn. Everything here, while simple is written by me. Anything I can do to make my app look better and preform faster, I will look for so I don't have to rely on bulky css frameworks.",
+      content: "I strive to learn. Everything here, while simple is written by me. Anything I can do to make my app look better and preform faster, I will look for so I don't have to rely on bulky css frameworks.",
     }, {
       title: "Third Card",
-      backContent: "I started learning piano in January 2016 and love it! Here is a clip at my teacher's reception after 3 months.",
+      content: "I started learning piano in January 2016 and love it! Here is a clip at my teacher's reception after 3 months.",
     }
   ]
 
   public proficiencyData: any = [
     {
-      name: "Skill 1",
+      name: "Swift",
       proficiency: "beginner"
     },
     {
-      name: "Skill 2",
+      name: "Angular",
       proficiency: "intermediate"
     },
     {
-      name: "Skill 3",
+      name: "JavaScript",
       proficiency: "expert"
     },
     {
-      name: "Skill 4",
-      proficiency: "master"
+      name: "Node",
+      proficiency: "beginner"
+    },
+    {
+      name: "HTML/CSS",
+      proficiency: "expert"
     },
   ]
 }

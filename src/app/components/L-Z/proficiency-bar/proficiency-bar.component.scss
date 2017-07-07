@@ -7,26 +7,26 @@
   .loading-bar{
     height: 8px;
     width: 100%;
-    background: lightcoral;
+    background: black;
     .beginner{
       height: 100%;
       width: 25%;
-      background: lightgreen;
+      background: #4fbb87;
     }
     .intermediate{
       height: 100%;
       width: 50%;
-      background: lightgreen;
+      background: #4fbb87;
     }
     .expert{
       height: 100%;
       width: 75%;
-      background: lightgreen;
+      background: #4fbb87;
     }
     .master{
       height: 100%;
       width: 100%;
-      background: lightgreen;
+      background: #4fbb87;
     }
   }
 }

@@ -11,10 +11,10 @@
     </div>
     <div class="hard-skills">
       <div class="header">
-        Hard Skills
+        Skills
       </div>
       <div *ngFor="let skill of skillData">
-        <app-proficiency-bar [title]="skill.name" [proficiency]="skill.proficiency"></app-proficiency-bar>
+        <app-proficiency-bar [title]="skill.name" [icon]="skill.icon" [proficiency]="skill.proficiency"></app-proficiency-bar>
       </div>
     </div>
   </div>

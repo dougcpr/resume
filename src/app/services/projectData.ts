@@ -12,7 +12,7 @@ export class ProjectDataService {
       technologies: "android public watch tv",
     }, {
       title: "POD/SM",
-      frontContent: "POD/SM for Common Online Session Cache Projecr",
+      frontContent: "POD/SM for Common Online Session Cache Project",
       backContent: "This is the second card sample back content.",
       projectName: "COSC",
       dateCompleted: "2016.02.05",
@@ -45,28 +45,34 @@ export class ProjectDataService {
       title: "Third Card",
       content: "I started learning piano in January 2016 and love it! Here is a clip at my teacher's reception after 3 months.",
     }
-  ]
+  ];
 
   public proficiencyData: any = [
     {
       name: "Swift",
-      proficiency: "beginner"
+      proficiency: "beginner",
+      icon: "../assets/icons/swift.png"
     },
     {
       name: "Angular",
-      proficiency: "intermediate"
+      proficiency: "intermediate",
+      icon: "../assets/icons/angular.png",
     },
     {
       name: "JavaScript",
-      proficiency: "expert"
+      proficiency: "expert",
+      icon: "../assets/icons/javascript.png",
     },
     {
       name: "Node",
-      proficiency: "beginner"
+      proficiency: "beginner",
+      icon: "../assets/icons/node-js.png",
+
     },
     {
       name: "HTML/CSS",
-      proficiency: "expert"
+      proficiency: "expert",
+      icon: "../assets/icons/html.png",
     },
   ]
 }

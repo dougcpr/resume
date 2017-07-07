@@ -9,6 +9,7 @@ export class ProficiencyBarComponent implements OnInit {
 
   @Input() title: string;
   @Input() proficiency: string;
+  @Input() icon: string;
 
   constructor(
   ) { }

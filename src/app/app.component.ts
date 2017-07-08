@@ -9,15 +9,15 @@ export class AppComponent {
 
   linksArray: any[] = [
     {
-      linkName: "add_project",
-      linkAddress: "/add_project",
-      icon: "note_add"
-    },
-    {
       linkName: "home",
       linkAddress: "/home",
       icon: "home"
     },
+    {
+      linkName: "add_project",
+      linkAddress: "/add_project",
+      icon: "note_add"
+    }
   ];
 
   footnoteArray: any[] = [

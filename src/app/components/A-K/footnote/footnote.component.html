@@ -1,12 +1,8 @@
 <div class="footnote">
   <div class="links-container">
-    <div class="link">
-      <p>Contact Me</p>
-    </div>
-
     <div class="link-right-container">
       <div class="link" *ngFor="let link of links">
-        <p>{{link.linkName}}</p>
+        <a href="{{ link.linkAddress }}"><img src="{{ link.icon }}"></a>
       </div>
     </div>
   </div>

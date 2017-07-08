@@ -1,0 +1,33 @@
+.menu-container {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  cursor: pointer;
+  .menu-button {
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background: black;
+    .material-icons {
+      user-select: none;
+      outline: none;
+      padding-top: 6px;
+      color: #4fbb87;
+      font-size: 32px;
+    }
+    .material-icons:active {
+      color: white;
+      animation: buttonClick 0.3s;
+    }
+  }
+}
+
+@keyframes buttonClick {
+  0% {transform: scale(0.95)}
+  33% {transform: scale(1)}
+  66% {transform: scale(1.05)}
+  100% {transform: scale(1)}
+}

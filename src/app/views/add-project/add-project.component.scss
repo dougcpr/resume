@@ -1,0 +1,47 @@
+@media (min-width: 1025px) {
+  form {
+    border: solid 1px;
+    width: 80%;
+    margin: 0 10%;
+    padding: 0px 5px;
+    background: white;
+    top: 5%;
+    position: absolute;
+    .full-width {
+      width: 100%;
+    }
+    .technology-container {
+      display: flex;
+      text-align: center;
+    }
+    input[type=checkbox] {
+      display: none;
+    }
+    .checkbox {
+      color: lightcoral;
+    }
+    #myFile::-webkit-file-upload-button {
+      outline: none;
+      height: 40px;
+      background: transparent;
+      padding: 5px 10px;
+      font-size: 14px;
+      font-family: Roboto,"Helvetica Neue",sans-serif;
+      font-weight: 300;
+      cursor: pointer;
+    }
+    #myFile:focus {
+      outline-width: 0;
+    }
+    .checkbox:active {
+      transform: scale(0.9);
+    }
+    input[type="checkbox"]:checked + label {
+      color: lightgreen;
+    }
+    .material-icons {
+      user-select: none;
+      padding: 0px 10px;
+    }
+  }
+}

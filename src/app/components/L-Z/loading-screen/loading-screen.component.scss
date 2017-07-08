@@ -1,4 +1,3 @@
-
 @media(min-width: 1024px) {
   div.loading-screen-container {
     pointer-events: none;
@@ -15,7 +14,7 @@
       background: gainsboro;
       animation: slideOutRight 1.3s 1s forwards;
     }
-    .ripple-effect {
+    .animation-fade-out {
       position: absolute;
       font-size: 36px;
       left: 44%;

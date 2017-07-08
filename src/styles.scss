@@ -1,17 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
 body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: gainsboro;
-  .header {
-    letter-spacing: 3px;
-    color: black;
-    display: flex;
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: 100;
-    padding: 10px;
-    margin-bottom: 30px;
-    justify-content: center;
+  /* Desktop Media */
+  @media (min-width: 1025px) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: gainsboro;
+    .header {
+      letter-spacing: 3px;
+      color: black;
+      display: flex;
+      font-size: 36px;
+      text-transform: uppercase;
+      font-weight: 100;
+      padding: 10px;
+      margin-bottom: 30px;
+      justify-content: center;
+    }
   }
+
+  /* Smart Phone Media */
+  @media (max-width: 500px) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: gainsboro;
+    .header {
+      letter-spacing: 1px;
+      color: black;
+      display: flex;
+      font-size: 36px;
+      text-transform: uppercase;
+      font-weight: 100;
+      padding: 10px;
+      margin-bottom: 30px;
+      justify-content: center;
+    }
+  }
+
+  /* Tablet Media */
+  @media (max-width: 1024px) and (min-width: 768px) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: gainsboro;
+    .header {
+      letter-spacing: 3px;
+      color: black;
+      display: flex;
+      font-size: 36px;
+      text-transform: uppercase;
+      font-weight: 100;
+      padding: 10px;
+      margin-bottom: 30px;
+      justify-content: center;
+    }
+  }
+
 }

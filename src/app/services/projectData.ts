@@ -1,7 +1,29 @@
 import { Injectable } from '@angular/core';
+import {Http} from "@angular/http";
+import { Observable } from "rxjs";
 
 @Injectable()
 export class ProjectDataService {
+
+  url = "http://localhost:3000/getProjectData";
+
+  constructor(private http: Http){}
+
+  projectLookup(): Observable<any>{
+    let self = this;
+    return this.http.get(this.url)
+      .map(this.extractProjects)
+      .timeout(5000)
+      .catch(this.handleError.bind(self));
+  }
+
+  private extractProjects(res: any) {
+    return JSON.parse(res._body).Projects;
+  }
+  private handleError(error: any){
+    return Observable.throw(error);
+  }
+
   public data : any = [
     {
       title: "Front End Developer",
@@ -26,9 +48,9 @@ export class ProjectDataService {
       technologies: "android public watch tv",
     }, {
       title: "iOS Developer",
-      frontContent: "Front End iOS Developer for Movie Database",
+      frontContent: "Full Stack iOS Developer for Parental Control Application",
       backContent: "This is the fourth card sample back content.",
-      projectName: "Movie Database",
+      projectName: "Parental Control Application",
       dateCompleted: "2017.12.10",
       technologies: "android public watch tv",
     }

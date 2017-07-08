@@ -1,10 +1,7 @@
-<app-loading-screen></app-loading-screen>
+<!--<app-loading-screen></app-loading-screen>-->
 
-<div class="app-container">
-  <app-landing-page></app-landing-page>
-  <app-about-me></app-about-me>
-  <app-education></app-education>
-  <app-portfolio-cards></app-portfolio-cards>
-  <app-timeline></app-timeline>
-  <app-footnote [links]="footnoteArray"></app-footnote>
-</div>
+<app-menu-navigation [links]="linksArray"></app-menu-navigation>
+
+<main>
+  <router-outlet></router-outlet>
+</main>

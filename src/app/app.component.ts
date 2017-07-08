@@ -9,31 +9,29 @@ export class AppComponent {
 
   linksArray: any[] = [
     {
-      linkName: "about me",
+      linkName: "add_project",
+      linkAddress: "/add_project",
+      icon: "note_add"
     },
     {
-      linkName: "education",
-    },
-    {
-      linkName: "project window",
-    },
-    {
-      linkName: "timeline",
+      linkName: "home",
+      linkAddress: "/home",
+      icon: "home"
     },
   ];
 
   footnoteArray: any[] = [
     {
-      linkName: "twitter",
-      icon: "note_add"
+      linkAddress: "www.twitter.com",
+      icon: "../assets/icons/twitter.png",
     },
     {
-      linkName: "facebook",
-      icon: "face"
+      linkAddress: "www.facebook.com",
+      icon: "../assets/icons/facebook.png",
     },
     {
-      linkName: "mail",
-      icon: "mail"
+      linkAddress: "",
+      icon: "../assets/icons/mail.svg",
     },
   ]
 

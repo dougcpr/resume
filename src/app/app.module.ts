@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -14,9 +14,24 @@ import { EducationComponent } from './components/A-K/education/education.compone
 import { LoadingScreenComponent } from './components/L-Z/loading-screen/loading-screen.component';
 import { ProficiencyBarComponent } from './components/L-Z/proficiency-bar/proficiency-bar.component';
 
+/* Views */
+import { HomeComponent } from "./views/home/home.component";
+import { AddProjectComponent } from "./views/add-project/add-project.component";
+import { PageNotFoundComponent } from "./views/page-not-found/page-not-found.component";
+
+/* Imports */
+import { MdDatepickerModule, MdInputModule, MdListModule, MdMenuModule ,MdNativeDateModule, MdRadioModule, MdButtonModule } from "@angular/material";
+import { AppRoutingModule } from "./app-routing.module";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { FileUploadModule } from "ng2-file-upload";
+import { MenuNavigationComponent } from './components/L-Z/menu-navigation/menu-navigation.component';
+
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
+    AddProjectComponent,
+    PageNotFoundComponent,
     PortfolioCardsComponent,
     TimelineComponent,
     LandingPageComponent,
@@ -25,12 +40,25 @@ import { ProficiencyBarComponent } from './components/L-Z/proficiency-bar/profic
     EducationComponent,
     LoadingScreenComponent,
     ProficiencyBarComponent,
+    MenuNavigationComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MdListModule,
+    ReactiveFormsModule,
+    MdInputModule,
+    MdDatepickerModule,
+    MdNativeDateModule,
+    MdRadioModule,
+    MdButtonModule,
+    FileUploadModule,
+    MdMenuModule
   ],
+  exports: [MdListModule],
   providers: [ProjectDataService],
   bootstrap: [AppComponent]
 })

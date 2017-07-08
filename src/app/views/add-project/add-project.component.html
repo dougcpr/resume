@@ -1,0 +1,88 @@
+
+  <form [formGroup]="projectForm"
+        novalidate>
+    <h2>Project Form</h2>
+    <div class="form-group">
+      <label class="center-block">
+        <md-input-container class="full-width">
+          <input
+            mdInput
+            placeholder="Title"
+            class="form-control"
+            formControlName="title">
+        </md-input-container>
+      </label>
+    </div>
+      <div class="form-group">
+        <label class="center-block">
+          <div class="full-width">
+              <input
+                id="myFile"
+                type="file"
+                class="form-control"
+                ng2FileSelect
+                [uploader]="uploader"
+                formControlName="frontContent">
+          </div>
+        </label>
+      </div>
+      <div class="form-group">
+        <label class="center-block">
+          <md-input-container class="full-width">
+            <textarea
+              mdInput
+              class="form-control"
+              #summary
+              maxlength="500"
+              mdTextareaAutosize
+              placeholder="Summary"
+              formControlName="summary">
+            </textarea>
+            <md-hint align="end">{{summary.value.length}} / 500</md-hint>
+          </md-input-container>
+        </label>
+      </div>
+      <div class="form-group">
+        <label class="center-block">
+          <md-input-container class="full-width">
+            <input
+              mdInput
+              placeholder="Client Name"
+              class="form-control"
+              formControlName="clientName">
+          </md-input-container>
+        </label>
+      </div>
+      <div class="form-group">
+        <label class="center-block">
+          <md-input-container>
+            <input
+              mdInput
+              [mdDatepicker]="picker"
+              placeholder="Choose a date"
+              formControlName="dateCompleted">
+            <button
+              mdSuffix
+              [mdDatepickerToggle]="picker">
+            </button>
+          </md-input-container>
+          <md-datepicker #picker></md-datepicker>
+        </label>
+      </div>
+      <div class="technology-container" formGroupName="Technology">
+        Technologies:
+        <div class="form-group" *ngFor="let option of technologies" class="checkbox">
+            <input type="checkbox"
+                   class="form-control"
+                   id="{{option.name}}"
+                   [value]="option.name"
+                   formControlName="{{option.name}}">
+          <label for="{{option.name}}">
+            <i class="material-icons">{{option.name}}</i>
+          </label>
+        </div>
+      </div>
+    <button md-raised-button (click)="submitProjectData(projectForm._value); uploader.uploadAll()" [disabled]="!projectForm.valid">Submit</button>
+    <p>Form value: {{ projectForm.value | json }}</p>
+    <p>Form status: {{ projectForm.valid | json }}</p>
+  </form>

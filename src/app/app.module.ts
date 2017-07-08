@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+/* Components */
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from "./app-routing.module";
 import { PortfolioCardsComponent } from './components/L-Z/portfolio-cards/portfolio-cards.component';
 import { TimelineComponent } from "./components/L-Z/timeline/timeline.component";
-import { ProjectDataService } from "./services/projectData";
 import { LandingPageComponent } from './components/L-Z/landing-page/landing-page.component';
 import { FootnoteComponent } from './components/A-K/footnote/footnote.component';
 import { AboutMeComponent } from './components/A-K/about-me/about-me.component';
@@ -19,9 +20,8 @@ import { HomeComponent } from "./views/home/home.component";
 import { AddProjectComponent } from "./views/add-project/add-project.component";
 import { PageNotFoundComponent } from "./views/page-not-found/page-not-found.component";
 
-/* Imports */
+/* CSS Imports */
 import { MdDatepickerModule, MdInputModule, MdListModule, MdMenuModule ,MdNativeDateModule, MdRadioModule, MdButtonModule } from "@angular/material";
-import { AppRoutingModule } from "./app-routing.module";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FileUploadModule } from "ng2-file-upload";
 import { MenuNavigationComponent } from './components/L-Z/menu-navigation/menu-navigation.component';

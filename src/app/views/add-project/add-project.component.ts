@@ -27,10 +27,10 @@ export class AddProjectComponent implements OnInit {
   createForm() {
 
     this.projectForm = this.fb.group({
-      title: ['', Validators.required],
+      role: ['', Validators.required],
       frontContent: '',
       summary: ['', Validators.required],
-      clientName: ['', Validators.required],
+      projectName: ['', Validators.required],
       dateCompleted: ['', Validators.required],
       Technology: this.fb.group({
         tv: false,

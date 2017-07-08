@@ -23,14 +23,36 @@ app.use(function(req, res, next){
   next();
 });
 
-/* Simple Get Function */
-app.get("/getProjectData", function(req, res) {
-  db.collection("Data").find().toArray(function(err, result) {
+/* Get Portfolio Data Function */
+app.get("/getProjectData/portfolio-data", function(req, res) {
+  db.collection("portfolio").find().toArray(function(err, result) {
   if (err){
     res.send(err);
   } else {
-    res.send({"Projects": result});
+    res.send({"data": result});
   }
+  });
+});
+
+/* Get Proficiency Data Function */
+app.get("/getProjectData/proficiency-data", function(req, res) {
+  db.collection("proficiency").find().toArray(function(err, result) {
+    if (err){
+      res.send(err);
+    } else {
+      res.send({"data": result});
+    }
+  });
+});
+
+/* Get About Me Data Function */
+app.get("/getProjectData/about-me-data", function(req, res) {
+  db.collection("about-me").find().toArray(function(err, result) {
+    if (err){
+      res.send(err);
+    } else {
+      res.send({"data": result});
+    }
   });
 });
 

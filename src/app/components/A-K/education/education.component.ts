@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import { ProjectDataService } from "../../../services/projectData";
+import { Component, OnInit } from '@angular/core';
+import { GetProjectDataService } from "../../../services/http/get-project-data/get-project-data.service";
 
 @Component({
   selector: 'app-education',
@@ -11,11 +11,12 @@ export class EducationComponent implements OnInit {
   private skillData: any;
 
   constructor(
-    public projectData: ProjectDataService
+    public getProjectData: GetProjectDataService
   ) { }
 
   ngOnInit() {
-    this.skillData = this.projectData.proficiencyData;
+    /* Subscription to Proficiency Data on MongoDB */
+    this.getProjectData.getData("proficiency-data").subscribe((data) => this.skillData = data[0].proficiencyData)
   }
 
 }

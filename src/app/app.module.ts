@@ -25,6 +25,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FileUploadModule } from "ng2-file-upload";
 import { MenuNavigationComponent } from './components/L-Z/menu-navigation/menu-navigation.component';
+import { GetProjectDataService } from "./services/http/get-project-data/get-project-data.service";
 
 @NgModule({
   declarations: [
@@ -59,7 +60,7 @@ import { MenuNavigationComponent } from './components/L-Z/menu-navigation/menu-n
     MdMenuModule
   ],
   exports: [MdListModule],
-  providers: [ProjectDataService],
+  providers: [GetProjectDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

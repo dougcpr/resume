@@ -16,12 +16,14 @@
     }
     .animation-fade-out {
       position: absolute;
-      font-size: 36px;
-      left: 44%;
-      top: 50%;
-      animation: fadeOut 1s forwards;
+      left: 43%;
+      top: 35%;
       z-index: 3;
-
+      .title {
+        font-size: 36px;
+        letter-spacing: 2px;
+        animation: fadeOut 1s forwards;
+      }
     }
     .left-panel {
       z-index: 2;

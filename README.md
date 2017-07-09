@@ -26,3 +26,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Node server
+
+`mongorestore` the files inside mongo-dump-files to generate the documents for this project. This will have the basic dataset of the project
+
+`nodemon index` inside the server directory to start. automatically listens on port 3000

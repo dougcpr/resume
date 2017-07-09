@@ -19,15 +19,20 @@
       font-size: 32px;
     }
     .material-icons:active {
-      color: white;
-      animation: buttonClick 0.3s;
+      animation: buttonClick 0.1s;
+    }
+  }
+  .menu-button:hover{
+    background: #4fbb87;
+    .material-icons {
+      color: black;
     }
   }
 }
 
 @keyframes buttonClick {
-  0% {transform: scale(0.95)}
+  0% {transform: scale(0.90)}
   33% {transform: scale(1)}
-  66% {transform: scale(1.05)}
+  66% {transform: scale(1.1)}
   100% {transform: scale(1)}
 }

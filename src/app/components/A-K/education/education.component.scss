@@ -10,11 +10,20 @@
       .school-degree {
         height: 100%;
         width: 50%;
-        background: lightblue;
-        .school-content{
-          img {
-            height: 50px;
-            width: 50px;
+        .school-content {
+          flex-wrap: wrap;
+          display: flex;
+          justify-content: center;
+          .profile-picture {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: #4fbb87;
+          }
+          p {
+            width: 100%;
+            margin: 5px;
+            text-align: center;
           }
         }
       }
@@ -28,7 +37,22 @@
       .school-degree {
         height: 100%;
         width: 100%;
-        background: lightblue;
+        .school-content {
+          flex-wrap: wrap;
+          display: flex;
+          justify-content: center;
+          .profile-picture {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: #4fbb87;
+          }
+          p {
+            width: 100%;
+            margin: 5px;
+            text-align: center;
+          }
+        }
       }
       .hard-skills {
         height: 100%;

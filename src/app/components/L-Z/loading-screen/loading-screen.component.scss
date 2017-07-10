@@ -1,5 +1,6 @@
 @media(min-width: 1024px) {
   div.loading-screen-container {
+    overflow: hidden;
     pointer-events: none;
     position: absolute;
     z-index: 3;

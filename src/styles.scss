@@ -3,6 +3,7 @@
 
 
 body {
+  animation: waitForLoadingScreen 1.3s;
   /* Desktop Media */
   @media (min-width: 1025px) {
     margin: 0;

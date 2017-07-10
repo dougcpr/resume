@@ -11,4 +11,19 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {}
 
+  footnoteArray: any[] = [
+    {
+      linkAddress: "http://www.twitter.com",
+      icon: "../assets/icons/twitter.png",
+    },
+    {
+      linkAddress: "http://www.facebook.com",
+      icon: "../assets/icons/facebook.png",
+    },
+    {
+      linkAddress: "",
+      icon: "../assets/icons/mail.svg",
+    },
+  ]
+
 }

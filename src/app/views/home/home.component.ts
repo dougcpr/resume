@@ -24,6 +24,10 @@ export class HomeComponent implements OnInit {
       linkAddress: "",
       icon: "../assets/icons/mail.svg",
     },
+    {
+      linkAddress: "https://github.com/dougcpr",
+      icon: "../assets/icons/github.png",
+    },
   ]
 
 }

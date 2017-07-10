@@ -14,12 +14,13 @@
           flex-wrap: wrap;
           display: flex;
           justify-content: center;
-          .profile-picture {
-            height: 150px;
-            width: 150px;
-            border-radius: 50%;
-            background-color: #4fbb87;
-          }
+            .profile-picture {
+              border-radius: 25px;
+              border: 2px solid black;
+              height: 145px;
+              width: 145px;
+              background-color: #4fbb87;
+            }
           p {
             text-transform: uppercase;
             width: 100%;

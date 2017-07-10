@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  linksArray: any[] = [
+    {
+      linkName: "home",
+      linkAddress: "/home",
+      icon: "home"
+    },
+    {
+      linkName: "add_project",
+      linkAddress: "/add_project",
+      icon: "note_add"
+    }
+  ];
+
+
 }

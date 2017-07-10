@@ -1,16 +1,14 @@
 <div class="container">
-  <div class="sky"></div>
 
   <div class="rain-cloud">
-    <img src="../../../../assets/landing-page/cloud.svg">
-    <img src="../../../../assets/landing-page/cloud.svg">
-    <img src="../../../../assets/landing-page/cloud.svg">
-    <img src="../../../../assets/landing-page/cloud.svg">
-    <img src="../../../../assets/landing-page/cloud.svg">
+    <img *ngFor="let num of clouds" src="{{ cloud }}">
   </div>
 
-  <!--&lt;!&ndash;Directional Arrow to tell user to scroll down?? Fix?&ndash;&gt;-->
+  <!--Directional Arrow to tell user to scroll down?? Fix?-->
   <!--<div class="arrow-downward">-->
     <!--<i class="material-icons">arrow_downward</i>-->
   <!--</div>-->
+</div>
+<div class="header">
+  The Sky is the Limit
 </div>

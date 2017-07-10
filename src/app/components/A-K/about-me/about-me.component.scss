@@ -8,6 +8,8 @@
     display: flex;
     width: 100%;
       .content {
+        font-size: 24px;
+        text-align: center;
         margin: 5px;
         padding: 0 5px;
         width: 33%;
@@ -26,6 +28,8 @@
       width: 100%;
       flex-direction: column;
       .content {
+        font-size: 24px;
+        text-align: center;
         margin-top: 5px;
         width: 100%;
         color: grey;
@@ -42,6 +46,8 @@
       display: flex;
       width: 100%;
       .content {
+        font-size: 24px;
+        text-align: center;
         margin: 0 5px;
         padding: 0 5px;
         width: 33%;

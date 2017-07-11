@@ -1,7 +1,7 @@
 <div class="loading-bar-container">
   <div class="proficiency-title">
     {{ title }}
-    <img class="icon" src="{{ icon }}">
+    <img *ngFor="let tech of icon" class="icon" src="{{ tech }}">
   </div>
   <div class="loading-bar">
     <div class="{{ proficiency }}"></div>

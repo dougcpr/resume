@@ -33,8 +33,7 @@
           </div>
           <div class="card-icons">
             <!--Technologies involved in project-->
-            <i class="material-icons">
-              {{numeral.technologies}}</i>
+            <img *ngFor="let tech of numeral.technologies" class="icon" src="{{tech}}">
           </div>
         </div>
       </div>

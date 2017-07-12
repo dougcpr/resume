@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  clouds: Array<number> = [0,1,2,3,4];
+  clouds: Array<number> = [0,1,2,3,4,5];
   cloud: string = "../../../../assets/landing-page/cloud.svg";
 
   constructor() { }

@@ -17,21 +17,18 @@ import { ProficiencyBarComponent } from './components/L-Z/proficiency-bar/profic
 
 /* Views */
 import { HomeComponent } from "./views/home/home.component";
-import { AddProjectComponent } from "./views/add-project/add-project.component";
 import { PageNotFoundComponent } from "./views/page-not-found/page-not-found.component";
 
 /* CSS Imports */
 import { MdDatepickerModule, MdInputModule, MdListModule, MdMenuModule ,MdNativeDateModule, MdRadioModule, MdButtonModule } from "@angular/material";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FileUploadModule } from "ng2-file-upload";
-import { MenuNavigationComponent } from './components/L-Z/menu-navigation/menu-navigation.component';
 import { GetProjectDataService } from "./services/http/get-project-data/get-project-data.service";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AddProjectComponent,
     PageNotFoundComponent,
     PortfolioCardsComponent,
     TimelineComponent,
@@ -41,7 +38,6 @@ import { GetProjectDataService } from "./services/http/get-project-data/get-proj
     EducationComponent,
     LoadingScreenComponent,
     ProficiencyBarComponent,
-    MenuNavigationComponent,
   ],
   imports: [
     BrowserModule,

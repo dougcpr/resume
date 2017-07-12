@@ -1,5 +1,5 @@
  .container {
-   background-image: linear-gradient(180deg, #84C4FE, white);
+   background-image: linear-gradient(180deg, #84C4FE, snow);
    width: 100%;
    height: 45vh;
    display: flex;
@@ -17,12 +17,22 @@
    }
 
    $elements: 6;
-   @for $i from 0 to $elements {
+   @for $i from 2 to $elements {
      img:nth-child(#{$i}) {
        height: random(100) + 140px;
        width: random(100) + 140px;
        position: relative;
        top: random(15) + 2%;
+       animation-fill-mode: both;
+       animation-duration: random(10) + 3s;
+       animation-delay: random(1) + 1.5s;
+       animation: float-left-to-right ease-in-out (random(15) + 7s) infinite;
+     }
+     img:nth-child(#{1}) {
+       height: random(100) + 140px;
+       width: random(100) + 140px;
+       position: relative;
+       top: -15%;
        animation-fill-mode: both;
        animation-delay: random(10) + 0.5s;
        animation: float-left-to-right ease-in-out (random(15) + 7s) infinite;

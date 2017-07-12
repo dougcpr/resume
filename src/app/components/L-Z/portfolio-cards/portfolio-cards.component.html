@@ -9,8 +9,12 @@
 
       <!--Card Front Content-->
       <div class="card-front">
-        <div class="title-overlay">
-          {{numeral.frontContent}}
+        <p>{{numeral.frontContent}}</p>
+        <div class="card-icon-container">
+            <!--Technologies involved in project-->
+          <p>
+            <img *ngFor="let tech of numeral.technologies" class="icon" src="{{tech}}">
+          </p>
         </div>
       </div>
 

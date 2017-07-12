@@ -43,7 +43,7 @@
 
 /* Desktop Media */
 @media (min-width: 1025px) {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.51);
 }
 
 /* Smart Phone Media */
@@ -87,7 +87,6 @@
   }
 }
 
-
 /* Front and Back Image of Card Styling */
 .card-front, .card-back {
   position: absolute;
@@ -104,14 +103,34 @@
 }
 
 .card-front {
-  background-color: lightcoral;
+  text-transform: uppercase;
   transform: rotateY(0deg);
+  p {
+    width: 100%;
+    font-size: 24px;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+  }
+  .card-icon-container{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 65%;
+    p{
+      margin: 0;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }
 
 /* Back of Card Content Styling */
 .card-back {
   color: #120000;
-  background-image: linear-gradient(90deg, #84C4FE, #B4DCFF);
+  background-color: snow;
   transform: rotateY(180deg);
   .card-title {
     height: 10%;

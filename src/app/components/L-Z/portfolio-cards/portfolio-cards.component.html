@@ -16,12 +16,15 @@
             <img *ngFor="let tech of numeral.technologies" class="icon" src="{{tech}}">
           </p>
         </div>
+        <div class="mobile-prompt">
+          Tap to Learn More
+        </div>
       </div>
 
       <!--Card Back Content-->
       <div class="card-back">
         <div class="card-content">
-          {{numeral.backContent}}
+          <li *ngFor="let responsibility of numeral.backContent">{{ responsibility }}</li>
         </div>
         <div class="card-technologies">
           <div class="card-title">

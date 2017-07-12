@@ -17,7 +17,7 @@
 }
 
 .card {
-  border-radius: 5px;
+  border-radius: 12px;
   margin: 3px;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   height: 225px;
   transition: 0.7s;
   transform-style: preserve-3d;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   img {
     width: 20px;
     height: 20px;
@@ -47,7 +47,6 @@
 
 /* Desktop Media */
 @media (min-width: 1024px) {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   .mobile-prompt {
     display: none;
   }
@@ -55,27 +54,49 @@
 
 /* Smart Phone Media */
 @media (max-width: 500px) {
-  .card-container{
-    margin: 0;
+  .card-container {
+    margin-right: 0%;
+    margin-left: 0%;
   }
   .card {
-    margin: 0;
+    margin: 1px;
     width: 100%;
     height: 225px;
-    &.animate-card {
-      transform: rotateY(180deg);
+    .card-front, .card-back {
+      border-radius: 0px;
     }
   }
 }
 
 /* Tablet Media */
-@media (max-width:1024px) and (min-width:768px) {
-  .card-container{
-  }
+@media (max-width:1023px) and (min-width:768px) {
   .card {
     display: flex;
-    &.animate-card {
-      transform: rotateY(180deg);
+    .card-front {
+      background-color: white;
+      color: #107896;
+      text-transform: uppercase;
+      transform: rotateY(0deg);
+      p {
+        width: 100%;
+        font-size: 24px;
+        position: absolute;
+        top: 10%;
+        text-align: center;
+      }
+      .card-icon-container{
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        top: 42%;
+        p{
+          margin: 0;
+        }
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
     }
     .mobile-prompt {
       display: flex;
@@ -101,6 +122,7 @@
 
 /* Front and Back Image of Card Styling */
 .card-front, .card-back {
+  border-radius: 12px;
   position: absolute;
   top: 0;
   left: 0;
@@ -115,7 +137,8 @@
 }
 
 .card-front {
-  background-color: #FFCE90;
+  background-color: white;
+  color: #107896;
   text-transform: uppercase;
   transform: rotateY(0deg);
   p {
@@ -129,7 +152,7 @@
     width: 100%;
     height: 40px;
     position: absolute;
-    top: 65%;
+    top: 50%;
     p{
       margin: 0;
     }
@@ -142,8 +165,8 @@
 
 /* Back of Card Content Styling */
 .card-back {
-  color: #120000;
-  background-color: #EE87AA;
+  background-color: #4fbb87;
+  color: black;
   transform: rotateY(180deg);
   .card-title {
     height: 10%;

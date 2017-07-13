@@ -10,11 +10,10 @@
     text-align: center;
     justify-content: center;
     .date {
-      background-color: #4fbb87;
-      border: 1px solid black;
       font-size: 14px;
     }
     .event {
+      color: #107896;
       font-size: 12px;
     }
     .timeline-red {
@@ -32,7 +31,6 @@
       }
       .red-info-circle {
         margin: -130px 0px;
-        border-radius: 50%;
         width: 100px;
         height: 100px;
         line-height: 25px;

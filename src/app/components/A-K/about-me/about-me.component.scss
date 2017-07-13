@@ -1,20 +1,23 @@
+.about-me-container {
+  padding-bottom: 30px;
+}
 
 
 /* Desktop Media */
 @media (min-width: 1025px) {
   .about-me-container{
-  width: 100%;
-  .content-container{
-    display: flex;
     width: 100%;
-      .content {
-        font-size: 24px;
-        text-align: center;
-        margin: 5px;
-        padding: 0 5px;
-        width: 33%;
-        color: grey;
-      }
+    .content-container{
+      display: flex;
+      width: 100%;
+        .content {
+          font-size: 24px;
+          text-align: center;
+          margin: 5px;
+          padding: 5px 5px;
+          width: 33%;
+          color: grey;
+        }
     }
   }
 }
@@ -30,7 +33,7 @@
       .content {
         font-size: 24px;
         text-align: center;
-        margin-top: 5px;
+        margin-top: 10px;
         width: 100%;
         color: grey;
       }
@@ -48,7 +51,7 @@
       .content {
         font-size: 24px;
         text-align: center;
-        margin: 0 5px;
+        margin: 5px 5px;
         padding: 0 5px;
         width: 33%;
         color: grey;

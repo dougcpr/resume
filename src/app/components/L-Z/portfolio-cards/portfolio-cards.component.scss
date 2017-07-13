@@ -186,6 +186,9 @@
     display: flex;
     flex-direction: column;
     p {
+      line-height: 28px;
+      position: absolute;
+      top: 15%;
       width: 100%;
     }
   }

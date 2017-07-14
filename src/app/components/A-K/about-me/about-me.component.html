@@ -1,13 +1,16 @@
+<div class="header">
+  About Me
+</div>
+
 <div class="about-me-container">
-
-  <div class="header">
-    About Me
-  </div>
-
-  <div class="content-container">
-    <div class="content" *ngFor="let me of aboutMe">
+  <div class="content-container"  *ngFor="let me of aboutMe">
+    <div class="content">
       {{me.content}}
     </div>
+    <div *ngIf="me.video" class="video-content">
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdouglas.cooper.18007%2Fvideos%2F1880604122210218%2F&show_text=0&width=560" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    </div>
+    <hr>
   </div>
 
 </div>

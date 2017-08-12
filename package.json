@@ -5,9 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && node ./server/index.js",
     "test": "ng test",
     "lint": "ng lint",
+    "postinstall": "ng build --aot -prod",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -46,5 +47,9 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
+  },
+  "engines": {
+    "node": "6.11.1",
+    "npm": "3.10.9"
   }
 }

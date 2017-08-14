@@ -3,15 +3,10 @@ var app = express();
 var bodyParser = require('body-parser');
 const path = require('path');
 
-
-
 /* server set-up */
-const api = require('./server/api');
-
 app.use(express.static(__dirname + '/dist'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
-app.use('api', api);
 /* end server set-up */
 
 

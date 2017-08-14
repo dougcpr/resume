@@ -9,7 +9,7 @@ import { ProficienciesService } from "../../../services/data/proficiencies.servi
 })
 export class EducationComponent implements OnInit {
 
-  private skillData: any;
+  skillData: any;
 
   constructor(
     //public getProjectData: GetProjectDataService,

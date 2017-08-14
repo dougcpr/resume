@@ -3,13 +3,18 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",
-    "start": "ng server",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "scripts": {
+      "ng": "ng",
+      "start": "node server.js",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e",
+      "postinstall": "ng build -prod"
   },
+    "engines": {
+      "node": " 6.11.1",
+      "npm": "3.10.10"
+    },
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.1.2",

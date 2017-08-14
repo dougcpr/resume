@@ -24,6 +24,9 @@ import { MdDatepickerModule, MdInputModule, MdListModule, MdMenuModule ,MdNative
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FileUploadModule } from "ng2-file-upload";
 import { GetProjectDataService } from "./services/http/get-project-data/get-project-data.service";
+import {ProficienciesService} from "./services/data/proficiencies.service";
+import {PortfolioService} from "./services/data/portfolio.service";
+import {AboutMeService} from "./services/data/about-me.service";
 
 @NgModule({
   declarations: [
@@ -56,7 +59,7 @@ import { GetProjectDataService } from "./services/http/get-project-data/get-proj
     MdMenuModule
   ],
   exports: [MdListModule],
-  providers: [GetProjectDataService],
+  providers: [GetProjectDataService, AboutMeService, ProficienciesService, PortfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

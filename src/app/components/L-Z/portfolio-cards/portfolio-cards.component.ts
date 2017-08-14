@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GetProjectDataService } from "../../../services/http/get-project-data/get-project-data.service";
+import {PortfolioService} from "../../../services/data/portfolio.service";
 
 @Component({
   selector: 'app-portfolio-cards',
@@ -11,12 +12,14 @@ export class PortfolioCardsComponent implements OnInit {
   cardData: any;
 
   constructor(
-    public getProjectData: GetProjectDataService
+    //public getProjectData: GetProjectDataService,
+    public getPortfolioData: PortfolioService
   ) { }
 
   ngOnInit() {
     /* Subscription to Portfolio Data on MongoDB */
-    this.getProjectData.getData("portfolio-data").subscribe((data) => this.cardData = data[0].portfolioData)
+    //this.getProjectData.getData("portfolio-data").subscribe((data) => this.cardData = data[0].portfolioData)
+    this.cardData = this.getPortfolioData.portfolioData;
   }
 
 }

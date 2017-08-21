@@ -36,10 +36,24 @@ export class ProficienciesService {
     },
     {
       "name" : "JavaScript",
-      "proficiency" : "beginner",
+      "proficiency" : "intermediate",
       "icon" : [
         "../assets/icons/javascript.png"
         ]
+    },
+    {
+      "name" : "ARkit",
+      "proficiency" : "beginner",
+      "icon" : [
+        "../assets/icons/arkit.png"
+      ]
+    },
+    {
+      "name" : "Unity",
+      "proficiency" : "beginner",
+      "icon" : [
+        "../assets/icons/unity.png"
+      ]
     },
     {
       "name" : "HTML/CSS",

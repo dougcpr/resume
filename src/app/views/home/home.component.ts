@@ -13,20 +13,20 @@ export class HomeComponent implements OnInit {
 
   footnoteArray: any[] = [
     {
-      linkAddress: "http://www.twitter.com",
-      icon: "../assets/icons/twitter.png",
+      linkAddress: "https://bitbucket.org/dougcpr/",
+      icon: "../assets/icons/bitbucket.png",
     },
     {
       linkAddress: "http://www.facebook.com",
       icon: "../assets/icons/facebook.png",
     },
     {
-      linkAddress: "",
-      icon: "../assets/icons/mail.svg",
-    },
-    {
       linkAddress: "https://github.com/dougcpr",
       icon: "../assets/icons/github.png",
+    },
+    {
+      linkAddress: "https://www.linkedin.com/in/douglas-cooper-08ab6b72/",
+      icon: "../assets/icons/linkedin.png",
     },
   ]
 

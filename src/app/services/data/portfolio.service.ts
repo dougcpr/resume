@@ -35,7 +35,7 @@ export class PortfolioService {
         ]
     },
     {
-      "title" : "Full Stack Developer/SM",
+      "title" : "Full Stack Developer",
       "frontContent" : "Welcome Buddy",
       "backContent" : [
         "Developer in a system to enhance the oboarding expereience for new hires by automatically pairing up existing hires as their welcome buddy."
@@ -50,16 +50,16 @@ export class PortfolioService {
         ]
     },
     {
-      "title" : "iOS Developer",
-      "frontContent" : "Movie DB (In Progress)",
+      "title" : "iOS Game Developer",
+      "frontContent" : "Knight Game (In Progress)",
       "backContent" : [
-        "Currently working on this."
+        "Designing a multiplayer AR Game"
         ],
-      "projectName" : "Movie DB",
-      "dateCompleted" : "Work in Progress",
+      "projectName" : "Knight Game",
+      "dateCompleted" : "TBD",
       "technologies" : [
-        "../assets/icons/swift.png",
-        "../assets/icons/node-js.png"
+        "../assets/icons/arkit.png",
+        "../assets/icons/unity.png"
         ]
     },
     {

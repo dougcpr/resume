@@ -21,7 +21,7 @@ body {
   }
 
   /* Smart Phone Media */
-  @media (max-width: 500px) {
+  @media (min-width: 0px) {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background: snow;

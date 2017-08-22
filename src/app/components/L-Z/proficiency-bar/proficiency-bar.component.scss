@@ -63,3 +63,17 @@
   0% { width: 0% }
   100% { width: 100% }
 }
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .loading-bar-container{
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 2560px) {
+  .loading-bar-container{
+    width: 50%;
+    margin: 0 auto;
+  }
+}

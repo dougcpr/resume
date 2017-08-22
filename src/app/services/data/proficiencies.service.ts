@@ -49,13 +49,6 @@ export class ProficienciesService {
       ]
     },
     {
-      "name" : "Unity",
-      "proficiency" : "beginner",
-      "icon" : [
-        "../assets/icons/unity.png"
-      ]
-    },
-    {
       "name" : "HTML/CSS",
       "proficiency" : "expert",
       "icon" : [

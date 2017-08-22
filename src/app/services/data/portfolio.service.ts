@@ -50,16 +50,16 @@ export class PortfolioService {
         ]
     },
     {
-      "title" : "iOS Game Developer",
-      "frontContent" : "Knight Game (In Progress)",
+      "title" : "iOS Developer",
+      "frontContent" : "Home Store (In Progress)",
       "backContent" : [
-        "Designing a multiplayer AR Game"
+        "Currently in Progress..."
         ],
-      "projectName" : "Knight Game",
+      "projectName" : "Home Store",
       "dateCompleted" : "TBD",
       "technologies" : [
-        "../assets/icons/arkit.png",
-        "../assets/icons/unity.png"
+        "../assets/icons/swift.png",
+        "../assets/icons/arkit.png"
         ]
     },
     {

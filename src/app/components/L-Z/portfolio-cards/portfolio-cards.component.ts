@@ -17,7 +17,7 @@ export class PortfolioCardsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    /* Subscription to Portfolio Data on MongoDB */
+    /* Subscription to portfolio Data on MongoDB */
     //this.getProjectData.getData("portfolio-data").subscribe((data) => this.cardData = data[0].portfolioData)
     this.cardData = this.getPortfolioData.portfolioData;
   }

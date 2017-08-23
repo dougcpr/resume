@@ -27,7 +27,6 @@ import { GetProjectDataService } from "./services/http/get-project-data/get-proj
 import {ProficienciesService} from "./services/data/proficiencies.service";
 import {PortfolioService} from "./services/data/portfolio.service";
 import {AboutMeService} from "./services/data/about-me.service";
-
 @NgModule({
   declarations: [
     AppComponent,

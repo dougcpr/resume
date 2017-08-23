@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
     {
       linkAddress: "https://www.linkedin.com/in/douglas-cooper-08ab6b72/",
       icon: "../assets/icons/linkedin.png",
-    },
+    }
   ]
 
 }

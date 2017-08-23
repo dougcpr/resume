@@ -4,7 +4,6 @@
   justify-content: flex-start;
   margin-right: 10%;
   margin-left: 10%;
-  perspective: 2000px;
 }
 
 .project-container {
@@ -83,7 +82,7 @@
     display: flex;
     .card-front {
       background-color: white;
-      color: #107896;
+      color: #000;
       text-transform: uppercase;
       transform: rotateY(0deg);
       p {
@@ -157,7 +156,7 @@
 
 .card-front {
   background-color: white;
-  color: #107896;
+  color: #000;
   text-transform: uppercase;
   transform: rotateY(0deg);
   p {
@@ -186,7 +185,7 @@
 .card-back {
   text-align: center;
   background-color: white;
-  color: #107896;
+  color: #000;
   transform: rotateY(180deg);
   .card-title {
     height: 10%;

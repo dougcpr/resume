@@ -23,7 +23,7 @@ app.use(function(req, res, next){
   next();
 });
 
-/* Get Portfolio Data Function */
+/* Get portfolio Data Function */
 app.get("/getProjectData/portfolio-data", function(req, res) {
   db.collection("portfolio").find().toArray(function(err, result) {
   if (err){

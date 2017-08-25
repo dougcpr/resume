@@ -14,11 +14,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
-var http = require("http");
-setInterval(function() {
-  http.get("https://doug-personal-site.herokuapp.com");
-}, 300000); // every 5 minutes (300000)
-
 var listener = app.listen(process.env.PORT || 8080, function() {
   console.log('Server started at http://localhost:' + listener.address().port);
 });

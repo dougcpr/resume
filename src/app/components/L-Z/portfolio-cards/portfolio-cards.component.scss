@@ -26,7 +26,7 @@
 
 .card {
   border-radius: 12px;
-  margin: 1px;
+  margin: 2px;
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -141,6 +141,8 @@
 /* Front and Back Image of Card Styling */
 .card-front, .card-back {
   border-radius: 12px;
+  border-bottom: black solid 2px;
+  border-right: black solid 2px;
   position: absolute;
   top: 0;
   left: 0;

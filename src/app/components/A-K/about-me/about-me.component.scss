@@ -1,6 +1,7 @@
 /* Desktop Media */
 @media (min-width: 1025px) {
   .about-me-container{
+    height: 300px;
     display: flex;
     width: 100%;
     .content-container{
@@ -10,40 +11,46 @@
       display: flex;
       flex-wrap: wrap;
         .content {
-          height: 18%;
+          height: 15%;
           font-size: 24px;
           text-align: center;
           width: 100%;
           color: grey;
         }
       .video-content {
-        height: 70%;
+        height: 85%;
         width: 100%;
         iframe {
-          height: 500px;
+          height: 100%;
         }
       }
     }
   }
 }
 
-/* Smart Phone Media */
-@media (min-width: 0px) {
+@media (min-width: 1920px) {
   .about-me-container{
+    height: 550px;
+    .content-container{
+      height: 100%;
+    }
+  }
+}
+
+/* Smart Phone Media */
+@media (min-width: 0px) and (max-width: 900px) {
+  .about-me-container{
+    height: 100%;
     .content-container{
       margin: 10px 5px;
       .content {
-        height: 30%;
+        height: 15%;
         font-size: 24px;
         text-align: center;
         color: grey;
       }
       .video-content {
-        height: 70%;
         width: 100%;
-        iframe {
-          height: 250px;
-        }
       }
     }
   }
@@ -71,7 +78,6 @@
         height: 70%;
         width: 100%;
         iframe {
-          height: 250px;
         }
       }
     }

@@ -14,11 +14,17 @@
       padding-right: 40px;
       padding-left: 35px;
       width: 125px;
-      height: 60px;
+      height: 30px;
       border-bottom: solid 1px black;
       border-radius: 12px 0px 0px 12px;
       background-image: none;
       text-align: center;
+      .year{
+        border: solid 1px black;
+        border-radius: 12px;
+        position: relative;
+        left: 170px;
+      }
       .content{
         visibility: hidden;
       }
@@ -55,10 +61,16 @@
       padding-left: 40px;
       padding-right: 30px;
       width: 125px;
-      height: 60px;
+      height: 30px;
       border-bottom: solid 1px black;
       border-radius: 0px 12px 12px 0px;
       text-align: center;
+      .year{
+        border: solid 1px black;
+        border-radius: 12px;
+        position: relative;
+        right: 170px;
+      }
       .content{
         visibility: hidden;
       }

@@ -18,28 +18,28 @@
     width: 100%;
     background: black;
     .beginner{
-      animation: fill-loading-bar-beginner 2s 2s forwards;
+      animation: fill-loading-bar-beginner 2s 1s forwards;
       border-radius: 25px;
       height: 100%;
       width: 0%;
       background: #4fbb87;
     }
     .intermediate{
-      animation: fill-loading-bar-intermediate 2s 2s forwards;
+      animation: fill-loading-bar-intermediate 2s 1s forwards;
       border-radius: 25px;
       height: 100%;
       width: 0%;
       background: #4fbb87;
     }
     .expert{
-      animation: fill-loading-bar-expert 2s 2s forwards;
+      animation: fill-loading-bar-expert 2s 1s forwards;
       border-radius: 25px;
       height: 100%;
       width: 0%;
       background: #4fbb87;
     }
     .master{
-      animation: fill-loading-bar-master 2s 2s forwards;
+      animation: fill-loading-bar-master 2s 1s forwards;
       border-radius: 25px;
       height: 100%;
       width: 0%;

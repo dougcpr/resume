@@ -7,7 +7,7 @@
   .timeline-section-left {
     cursor: pointer;
     width: 200px;
-    height: 125px;
+    height: 160px;
     border-right: solid 1px black;
     .left-content{
       transition: 1s;
@@ -23,9 +23,9 @@
         visibility: hidden;
       }
       &:hover {
-        background-image: linear-gradient(360deg, #4fbb87, #e9ecef);
+        background-image: linear-gradient(360deg, #84C4FE, #e9ecef);
         transition: 1s ease-in-out;
-        height: 150px;
+        height: 155px;
         .content{
           transition: 1s 0.5s;
           visibility: visible;
@@ -33,7 +33,7 @@
       }
     }
     .circle{
-      background: #4fbb87;
+      background: #84C4FE;
       margin-left: 194px;
       margin-top: -7px;
       width: 10px;

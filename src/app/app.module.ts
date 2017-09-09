@@ -15,6 +15,13 @@ import { EducationComponent } from './components/A-K/education/education.compone
 import { LoadingScreenComponent } from './components/L-Z/loading-screen/loading-screen.component';
 import { ProficiencyBarComponent } from './components/L-Z/proficiency-bar/proficiency-bar.component';
 
+/* Services */
+import { GetProjectDataService } from "./services/http/get-project-data/get-project-data.service";
+import { ProficienciesService } from "./services/data/proficiencies.service";
+import { PortfolioService } from "./services/data/portfolio.service";
+import { AboutMeService } from "./services/data/about-me.service";
+import { TimelineService } from "./services/data/timeline.service";
+
 /* Views */
 import { HomeComponent } from "./views/home/home.component";
 import { PageNotFoundComponent } from "./views/page-not-found/page-not-found.component";
@@ -23,10 +30,7 @@ import { PageNotFoundComponent } from "./views/page-not-found/page-not-found.com
 import { MdDatepickerModule, MdInputModule, MdListModule, MdMenuModule ,MdNativeDateModule, MdRadioModule, MdButtonModule } from "@angular/material";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FileUploadModule } from "ng2-file-upload";
-import { GetProjectDataService } from "./services/http/get-project-data/get-project-data.service";
-import {ProficienciesService} from "./services/data/proficiencies.service";
-import {PortfolioService} from "./services/data/portfolio.service";
-import {AboutMeService} from "./services/data/about-me.service";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,7 +62,7 @@ import {AboutMeService} from "./services/data/about-me.service";
     MdMenuModule
   ],
   exports: [MdListModule],
-  providers: [GetProjectDataService, AboutMeService, ProficienciesService, PortfolioService],
+  providers: [GetProjectDataService, AboutMeService, ProficienciesService, PortfolioService, TimelineService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

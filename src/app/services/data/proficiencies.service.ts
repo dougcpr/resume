@@ -7,15 +7,37 @@ export class ProficienciesService {
 
   public proficiencyData = [
     {
+      "name" : "HTML/CSS",
+      "proficiency" : "expert",
+      "icon" : [
+        "../assets/icons/html.png",
+        "../assets/icons/css3.png"
+      ]
+    },
+    {
+      "name" : "Angular",
+      "proficiency" : "expert",
+      "icon" : [
+        "../assets/icons/angular.png"
+      ]
+    },
+    {
+      "name" : "JavaScript",
+      "proficiency" : "expert",
+      "icon" : [
+        "../assets/icons/javascript.png"
+      ]
+    },
+    {
       "name" : "Meteor",
-      "proficiency" : "beginner",
+      "proficiency" : "intermediate",
       "icon" : [
         "../assets/icons/meteor.png"
         ]
     },
     {
       "name" : "Node",
-      "proficiency" : "beginner",
+      "proficiency" : "intermediate",
       "icon" : [
         "../assets/icons/node-js.png"
         ]
@@ -28,33 +50,11 @@ export class ProficienciesService {
         ]
     },
     {
-      "name" : "Angular",
-      "proficiency" : "intermediate",
-      "icon" : [
-        "../assets/icons/angular.png"
-        ]
-    },
-    {
-      "name" : "JavaScript",
-      "proficiency" : "intermediate",
-      "icon" : [
-        "../assets/icons/javascript.png"
-        ]
-    },
-    {
       "name" : "ARkit",
       "proficiency" : "beginner",
       "icon" : [
         "../assets/icons/arkit.png"
       ]
-    },
-    {
-      "name" : "HTML/CSS",
-      "proficiency" : "expert",
-      "icon" : [
-        "../assets/icons/html.png",
-        "../assets/icons/css3.png"
-        ]
     }
     ]
 

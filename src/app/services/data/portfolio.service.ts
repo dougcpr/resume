@@ -10,7 +10,7 @@ export class PortfolioService {
       "title" : "Front End Developer",
       "frontContent" : "Concierge Bot",
       "backContent" : [
-        "Built a motion detection bot, that will respond vocally using API.ai and responsive voice. The bot prompt is driven by the user's speech/commands."
+        "I collaborated on a project to build a concierge bot which uses the responsive voice library and a supervised learning model in API.ai. The bot serves visitors, and allows them to schedule demos, to visit the lab, or learn more about CDI."
         ],
       "projectName" : "Concierge Bot",
       "dateCompleted" : "2017.06.12",
@@ -38,7 +38,7 @@ export class PortfolioService {
       "title" : "Full Stack Developer",
       "frontContent" : "Welcome Buddy",
       "backContent" : [
-        "Developer in a system to enhance the oboarding expereience for new hires by automatically pairing up existing hires as their welcome buddy."
+        "Developed a heuristic algorithm based matching system to enhance the onboarding experience for new hires. This system pairs up new hires to their “Best Matched” welcome buddy."
         ],
       "projectName" : "Welcome Buddy App",
       "dateCompleted" : "2017.06.15",

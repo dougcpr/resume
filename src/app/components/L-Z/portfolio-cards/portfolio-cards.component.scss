@@ -185,7 +185,6 @@
 
 /* Back of Card Content Styling */
 .card-back {
-  text-align: center;
   background-color: white;
   color: #000;
   transform: rotateY(180deg);
@@ -200,7 +199,7 @@
     p {
       line-height: 28px;
       position: absolute;
-      top: 15%;
+      top: 5%;
       width: 100%;
     }
   }

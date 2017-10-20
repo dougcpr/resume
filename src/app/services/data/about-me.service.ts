@@ -8,7 +8,7 @@ export class AboutMeService {
   public aboutMe = [
     {
       "title" : "First Card",
-      "content" : "I love to learn."
+      "content" : "Currently Learning ARKit"
     },
     {
       "title" : "Second Card",

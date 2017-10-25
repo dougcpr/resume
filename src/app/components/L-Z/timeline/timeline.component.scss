@@ -100,3 +100,12 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .timeline-v2-container{
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+}
